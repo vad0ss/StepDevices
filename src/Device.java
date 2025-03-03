@@ -22,6 +22,10 @@ public abstract class Device {
         return totalDevices;
     }
 
+    public void setBatteryLevel(int batteryLevel) {
+        this.batteryLevel = batteryLevel;
+    }
+
     public String getModel() {
         return model;
     }
@@ -52,5 +56,7 @@ public abstract class Device {
     public int hashCode() {
         return Objects.hash(serialNumber);
     }
+
+    public abstract Device clone();
 
 }
