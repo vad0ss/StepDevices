@@ -36,11 +36,7 @@ public abstract class Device {
 
     @Override
     public String toString() {
-        return "Device{" +
-                "serialNumber='" + serialNumber + '\'' +
-                ", model='" + model + '\'' +
-                ", batteryLevel=" + batteryLevel +
-                '}';
+        return "Устройство: ";
     }
 
 

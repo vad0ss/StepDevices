@@ -1,4 +1,5 @@
 public interface Chargeable {
 
-    void charge(int charge);
+    void charge(int amount);
+    int getBatteryLevel();
 }
